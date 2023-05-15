@@ -1,0 +1,229 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  background-color: azure;
+}
+
+.Titulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.BDP {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  height: 30px;
+  padding: 0.5rem;
+
+}
+
+.BDP input {
+  padding: 8rem;
+  border: none;
+  flex: 2;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+
+.BDP input:focus {
+  outline: none;
+}
+
+.BDP button {
+  padding: 0.8rem;
+  min-width: 80px;
+  margin-left: 8px;
+  background-color: #8dd0f5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.BDP button:hover {
+  background-color: #7bc8ea;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+
+.popular-courses {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.popular-courses li {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 30px;
+  border: 2px solid #000;
+  color: darkgrey;
+}
+
+.popular-courses li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.popular-courses li:hover {
+  background-color: #fff3c4;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.2s ease-in-out;
+}
+nav a:hover {
+  color: #f0f0f0;
+}
+#inicio {
+  margin-right: 20px;
+}
+#sobre-nos {
+  margin-left: 20px;
+}
+#Contato{
+  margin-left: 20px;
+}
+
+.logo-proa, .logo-oracle, .Recode, .PrograMaria, .Reprograma {
+  height: 30px;
+  width: auto;
+  float: left;
+
+}
+
+
+parent-element {
+  text-align: center; /* add this line */
+}
+
+.More-courses{
+  margin: 0 -660px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.More-courses01 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: -400px -300px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.More-courses01 li {
+  margin: 10px;
+  border-radius: 30px;
+  border: 2px solid #000;
+  color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.More-courses01 li:hover {
+  background-color: #fff9c4;
+  color: #000;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.More-courses01 li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.meu-elemento {
+  border-top: 110px dotted black;
+}
+
+.line {
+  border-left: 2px dashed #000;
+  height: 530px;
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  margin: -500px -100px;
+  padding: 0;
+}
+
+
+.rodape{
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  margin: -550px -450px;
+  width: 1360px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+  align-items: center;
+  color: black;
+  padding: -20px;
+}
+.icons{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  color: black;
+  padding: 0px;
+}
+

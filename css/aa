@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.Titulo{
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.BDP {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  height: 30px;
+  padding: 0.5rem;
+
+}
+
+.BDP input {
+  padding: 8rem;
+  border: none;
+  flex: 2;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: transparent;
+}
+
+.BDP input:focus {
+  outline: none;
+}
+
+.BDP button {
+  padding: 0.8rem;
+  min-width: 80px;
+  margin-left: 8px;
+  background-color: #8dd0f5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.BDP button:hover {
+  background-color: #7bc8ea;
+}
+.cp{
+  display: block;
+  flex-direction: column;
+  margin-right: 200px;
+}
+
+.popular-courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+}
+
+.popular-courses li {
+  margin: 1px;
+  border-radius: 30px;
+  border: 2px solid #000;
+  color: darkgrey;
+}
+
+.popular-courses li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.cp{
+  display: block;
+  flex-direction: column;
+  margin-right: 200px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.2s ease-in-out;
+}
+nav a:hover {
+  color: #f0f0f0;
+}
+#inicio {
+  margin-right: 20px;
+}
+#sobre-nos {
+  margin-left: 20px;
+}
+#Contato{
+  margin-left: 20px;
+}
+
+.logo-proa, .logo-oracle,.Recode, .PrograMaria, .Reprograma {
+  height: 20px;
+  width: auto;
+}
+
+.More-courses01{
+  list-style: none
